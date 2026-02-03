@@ -1,0 +1,10 @@
+{
+  "TableName": "LocalEvents",
+  "KeySchema": [
+    { "AttributeName": "EventId", "KeyType": "HASH" }
+  ],
+  "AttributeDefinitions": [
+    { "AttributeName": "EventId", "AttributeType": "S" }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}
